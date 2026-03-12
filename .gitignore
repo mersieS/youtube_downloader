@@ -1,0 +1,4 @@
+build/
+ytmp3
+*.exe
+.DS_Store

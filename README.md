@@ -45,27 +45,27 @@ brew install ytmp3
 #### macOS (Apple Silicon - M1/M2/M3/M4)
 
 ```bash
-curl -L https://github.com/sbuker/youtube_downloader/releases/latest/download/ytmp3-darwin-arm64.tar.gz | tar xz
+curl -L https://github.com/mersieS/youtube_downloader/releases/latest/download/ytmp3-darwin-arm64.tar.gz | tar xz
 sudo mv ytmp3-darwin-arm64 /usr/local/bin/ytmp3
 ```
 
 #### macOS (Intel)
 
 ```bash
-curl -L https://github.com/sbuker/youtube_downloader/releases/latest/download/ytmp3-darwin-amd64.tar.gz | tar xz
+curl -L https://github.com/mersieS/youtube_downloader/releases/latest/download/ytmp3-darwin-amd64.tar.gz | tar xz
 sudo mv ytmp3-darwin-amd64 /usr/local/bin/ytmp3
 ```
 
 #### Windows
 
-1. [Releases](https://github.com/sbuker/youtube_downloader/releases/latest) sayfasından `ytmp3-windows-amd64.zip` dosyasını indirin / Download `ytmp3-windows-amd64.zip` from Releases
+1. [Releases](https://github.com/mersieS/youtube_downloader/releases/latest) sayfasından `ytmp3-windows-amd64.zip` dosyasını indirin / Download `ytmp3-windows-amd64.zip` from Releases
 2. ZIP dosyasını çıkartın / Extract the ZIP file
 3. `ytmp3-windows-amd64.exe` dosyasını PATH'e ekleyin veya istediğiniz klasöre taşıyın / Add to PATH or move to desired folder
 
 ### Kaynaktan Derleme / Build from Source
 
 ```bash
-git clone https://github.com/sbuker/youtube_downloader.git
+git clone https://github.com/mersieS/youtube_downloader.git
 cd youtube_downloader
 make install
 ```

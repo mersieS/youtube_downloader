@@ -14,7 +14,7 @@ var (
 
 func main() {
 	if len(os.Args) > 1 && (os.Args[1] == "--version" || os.Args[1] == "-v") {
-		fmt.Printf("ytmp3 v%s\n", version)
+		fmt.Printf("goodman-dl-mp4 v%s\n", version)
 		return
 	}
 

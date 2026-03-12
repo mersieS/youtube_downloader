@@ -1,4 +1,4 @@
-# ytmp3
+# goodman-dl-mp4
 
 Free YouTube & Video Downloader CLI / Ücretsiz YouTube & Video İndirici CLI
 
@@ -22,7 +22,7 @@ An interactive terminal app to download MP4/MP3 from YouTube and 1000+ sites.
 
 Uygulamayı kullanabilmek için aşağıdaki araçlar yüklü olmalıdır:
 
-The following tools must be installed before using ytmp3:
+The following tools must be installed before using goodman-dl-mp4:
 
 | Araç / Tool | Kurulum / Install |
 |---|---|
@@ -37,7 +37,7 @@ The following tools must be installed before using ytmp3:
 
 ```bash
 brew tap sbuker/ytmp3
-brew install ytmp3
+brew install goodman-dl-mp4
 ```
 
 ### Doğrudan İndirme / Direct Download
@@ -45,22 +45,22 @@ brew install ytmp3
 #### macOS (Apple Silicon - M1/M2/M3/M4)
 
 ```bash
-curl -L https://github.com/mersieS/youtube_downloader/releases/latest/download/ytmp3-darwin-arm64.tar.gz | tar xz
-sudo mv ytmp3-darwin-arm64 /usr/local/bin/ytmp3
+curl -L https://github.com/mersieS/youtube_downloader/releases/latest/download/goodman-dl-mp4-darwin-arm64.tar.gz | tar xz
+sudo mv goodman-dl-mp4-darwin-arm64 /usr/local/bin/goodman-dl-mp4
 ```
 
 #### macOS (Intel)
 
 ```bash
-curl -L https://github.com/mersieS/youtube_downloader/releases/latest/download/ytmp3-darwin-amd64.tar.gz | tar xz
-sudo mv ytmp3-darwin-amd64 /usr/local/bin/ytmp3
+curl -L https://github.com/mersieS/youtube_downloader/releases/latest/download/goodman-dl-mp4-darwin-amd64.tar.gz | tar xz
+sudo mv goodman-dl-mp4-darwin-amd64 /usr/local/bin/goodman-dl-mp4
 ```
 
 #### Windows
 
-1. [Releases](https://github.com/mersieS/youtube_downloader/releases/latest) sayfasından `ytmp3-windows-amd64.zip` dosyasını indirin / Download `ytmp3-windows-amd64.zip` from Releases
+1. [Releases](https://github.com/mersieS/youtube_downloader/releases/latest) sayfasından `goodman-dl-mp4-windows-amd64.zip` dosyasını indirin / Download `goodman-dl-mp4-windows-amd64.zip` from Releases
 2. ZIP dosyasını çıkartın / Extract the ZIP file
-3. `ytmp3-windows-amd64.exe` dosyasını PATH'e ekleyin veya istediğiniz klasöre taşıyın / Add to PATH or move to desired folder
+3. `goodman-dl-mp4-windows-amd64.exe` dosyasını PATH'e ekleyin veya istediğiniz klasöre taşıyın / Add to PATH or move to desired folder
 
 ### Kaynaktan Derleme / Build from Source
 
@@ -77,7 +77,7 @@ make install
 Terminali açıp şu komutu çalıştırın / Open terminal and run:
 
 ```bash
-ytmp3
+goodman-dl-mp4
 ```
 
 ### Adım Adım / Step by Step
@@ -142,7 +142,7 @@ Klasör:
 ### Versiyon Kontrolü / Version Check
 
 ```bash
-ytmp3 --version
+goodman-dl-mp4 --version
 ```
 
 ---

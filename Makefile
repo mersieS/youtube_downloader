@@ -1,4 +1,4 @@
-APP_NAME := ytmp3
+APP_NAME := goodman-dl-mp4
 VERSION  ?= 0.1.0
 LDFLAGS  := -s -w -X main.version=$(VERSION)
 BUILD_DIR := build

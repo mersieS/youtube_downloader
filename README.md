@@ -36,7 +36,7 @@ The following tools must be installed before using goodman-dl-mp4:
 ### Homebrew (macOS)
 
 ```bash
-brew tap sbuker/ytmp3
+brew tap mersieS/goodman-dl-mp4
 brew install goodman-dl-mp4
 ```
 

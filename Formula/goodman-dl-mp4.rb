@@ -1,4 +1,4 @@
-class GoodmanDl < Formula
+class GoodmanDlMp4 < Formula
   desc "Free YouTube & Video Downloader CLI - MP4/MP3"
   homepage "https://github.com/mersieS/youtube_downloader"
   version "0.1.0"
@@ -7,7 +7,7 @@ class GoodmanDl < Formula
   on_macos do
     on_arm do
       url "https://github.com/mersieS/youtube_downloader/releases/download/v#{version}/goodman-dl-mp4-darwin-arm64.tar.gz"
-      sha256 "b7cb0948c5ea93c14beee75e8b46cc211462677ff83107ec63b53da3c92ba0c7"
+      sha256 "bc137725022b5639418a766d6e0350ff1f9905f16ae48176c795cb8d3102553c"
 
       def install
         bin.install "goodman-dl-mp4-darwin-arm64" => "goodman-dl-mp4"
@@ -16,7 +16,7 @@ class GoodmanDl < Formula
 
     on_intel do
       url "https://github.com/mersieS/youtube_downloader/releases/download/v#{version}/goodman-dl-mp4-darwin-amd64.tar.gz"
-      sha256 "e6a11a3bddbd26cdace4ce05857dcc308718ed6a62f49ae1323d7c4347c021f9"
+      sha256 "481a45abfcfe5310f972b4d26b87fa772913a2fb44787045c064d97948b58d6e"
 
       def install
         bin.install "goodman-dl-mp4-darwin-amd64" => "goodman-dl-mp4"
